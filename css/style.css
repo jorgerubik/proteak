@@ -7,6 +7,7 @@ body{
 .navbar-proteak-intop{
     background-color: rgba(0, 0, 0, 0) !important;
     border:none;
+    color: white !important;
 }
 .navbar-proteak-inbot{
     background-color: white !important;
@@ -29,9 +30,13 @@ footer {
     padding-top: 0;
     border-color: #B5B5B5
 }
+.font-blanca{
+	color: white !important;
+	font-size: 20px;
+}
 .correo{
 	font-size: 20px;
-	color: black;
+	color: #777;
 }
 .navbar-nav{
 	float: right;
@@ -40,6 +45,10 @@ footer {
 .titulo{
 	top:0;
 
+}
+.sitioweb{
+	font-size: 20px;
+	color: #777;
 }
 nav.navbar div.container-fluid{
 	height: 74px;
@@ -692,8 +701,8 @@ iframe{
 	margin: 0 auto;
 }
 .img-footer{
-	width: 150px;
-	height: 150px;
+	width: 80px;
+	height: 80px;
 }
 .footer h2{
 	color: #fff;
