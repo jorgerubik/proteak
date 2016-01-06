@@ -34,6 +34,9 @@ footer {
 	color: white !important;
 	font-size: 20px;
 }
+.carret-normal{
+	color: #777;
+}
 .correo{
 	font-size: 20px;
 	color: #777;
@@ -83,13 +86,15 @@ nav.navbar div.container-fluid{
 	top: 0;
 	right: 0;
 }
+
 ul.nav{
-	top: 10px;
+	top: 12px;
 	position: relative;
 }
 .imagenes{
 	left: (50%-146px);
-
+	height: 25px;
+	top: 12px;
 }
 .texto-slider{
 	padding-bottom: 250px;
