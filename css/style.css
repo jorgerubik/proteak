@@ -182,7 +182,7 @@ ul.nav{
 }
 .titulo_caracteristicas{
 	position: relative;
-	margin-top: 40px;
+	margin-top: 60px;
 	top: 0;
 }
 .titulo_caracteristicas img{
@@ -315,7 +315,7 @@ ul.nav{
 		
 }
 .titulo_sustentable{
-	margin-top: 40px;
+	margin-top: 60px;
 	color: black;
 	top: 0;
 }
@@ -537,6 +537,7 @@ ul.nav{
 .titulo_vision{
 	color: black;
 	top: 0;
+	margin-top: 60px;
 }
 .titulo_vision img{
 	height: 200px;
@@ -545,7 +546,7 @@ ul.nav{
 }
 .titulo_vision h2{
 	color: black;
-	margin-top: 40px;
+	
 }
 .titulo_vision .descripcion{
 	top:0;
@@ -603,7 +604,7 @@ iframe{
 }
 .titulo_division h2{
 	color: black;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 .titulo_division .descripcion{
 	top:0;
@@ -749,4 +750,9 @@ input,textarea{
 	color: white;
 	
 
+}
+
+.redireccion{
+	margin-bottom: 400px;
+	padding-bottom: 400px;
 }
