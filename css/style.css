@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
 body{
-	font-family: 'Open Sans' !important;
+	font-family: 'Oswald' !important;
 }
 
 
@@ -102,6 +103,7 @@ ul.nav{
 .texto-slider h1{
 	margin-top: 0px;
 	margin-bottom: 30px;
+	font-size: 55px;
 }
 @media (max-height: 680px){
 	.texto-slider{
@@ -123,8 +125,12 @@ ul.nav{
 }
 .texto-slider h2{
 	margin-bottom: 0px;
+	font-size: 48px;
 }
-
+.images{
+	height: 150px;
+	width: 150px;
+}
 #tronco-slider{
 	width: 200px;
 	height: 200px;
@@ -142,7 +148,7 @@ ul.nav{
 	color: #D8D8D8;
 }
 .title{
-	font-size: 24px;
+	font-size: 30px;
 }
 .caracteristicas{
 	background-color: #1a2b4b;
@@ -182,7 +188,7 @@ ul.nav{
 }
 .titulo_caracteristicas{
 	position: relative;
-	margin-top: 60px;
+	margin-top: 100px;
 	top: 0;
 }
 .titulo_caracteristicas img{
@@ -201,8 +207,8 @@ ul.nav{
 }
 .descripcion h1{
 	color: #fff;
-	width: 65%;
-	font-size: 18px !important;
+	line-height: 150%;
+	font-size: 22px !important;
 
 }
 .iconos_caracteristicas{
@@ -213,24 +219,25 @@ ul.nav{
 }
 .caracteristicas-desktop .iconos_caracteristicas .icono{
 	text-align: center;
-	opacity: .5;
+	/*opacity: .5;*/
 	margin-bottom: 35px;
-	
-}
-.caracteristicas .iconos_caracteristicas .icono{
-	text-align: center;
-	opacity: .5;
-	margin-bottom: 35px;
-	
-}
-.icono:hover{
-	opacity: 1 !important;
 	
 }
 
+.caracteristicas .iconos_caracteristicas .icono{
+	text-align: center;
+	/*opacity: .5;*/
+	margin-bottom: 35px;
+	
+}
+/*.icono:hover{
+	opacity: 1 !important;
+	
+}*/
+
 .icono-circular{
-	width: 150px;
-	height: 150px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100%;
 	border:solid;
 	border-width: 1px;
@@ -241,14 +248,14 @@ ul.nav{
 .caracteristicas-desktop .iconos_caracteristicas .icono:hover .icono-circular{
 	border-width: 1px;
 
-	 -webkit-animation-name: MiAnimacion; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+	/* -webkit-animation-name: MiAnimacion; /* Chrome, Safari, Opera 
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera 
     animation-name: MiAnimacion;
     animation-duration: 2s;
     animation-fill-mode:forwards;
     -webkit-animation-fill-mode:forwards;
-    -webkit-animation-delay: .2s; /* Chrome, Safari, Opera */
-    animation-delay: .2s;
+    -webkit-animation-delay: .2s; /* Chrome, Safari, Opera 
+    animation-delay: .2s;*/
 }
 @-webkit-keyframes MiAnimacion {
     0% {
@@ -415,13 +422,13 @@ ul.nav{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-top: 60px;
+	padding-top: 90px;
 	color: #FFF;
 	background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
 }
-.uk-overlay:hover .uk-overlay-background{
+/*.uk-overlay:hover .uk-overlay-background{
 	visibility: hidden;
-}
+}*/
 
 .uk-overlaym img{
 	border-radius: 100%;
@@ -534,6 +541,9 @@ ul.nav{
 	margin: 0 auto;
 	
 }
+.vision .row .texto-vision{
+
+}
 .titulo_vision{
 	color: black;
 	top: 0;
@@ -546,6 +556,7 @@ ul.nav{
 }
 .titulo_vision h2{
 	color: black;
+	/*padding-top: calc(50% - 135px);*/
 	
 }
 .titulo_vision .descripcion{
@@ -555,10 +566,14 @@ ul.nav{
 }
 .titulo_vision .descripcion h1{
 	color: black;
-	width: 65%;
-	min-width: 85vw;
+	/*width: 65%;
+	min-width: 85vw;*/
 	font-size: 24px;
 
+}
+.video-cont{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .video{
 	padding-left: 0;
