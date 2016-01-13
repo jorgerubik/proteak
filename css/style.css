@@ -33,6 +33,26 @@ footer {
     padding-top: 0;
     border-color: #B5B5B5
 }
+@media(max-width:767px){
+	.navbar-right-g{
+		background-color:#777;
+
+
+	}
+	.idioma-b{
+		color:white !important;
+	}
+	.idioma-g{
+		color: #777;
+	}
+	.navbar-right-b{
+		background-color: white !important;
+	}
+	.navbar-collapse{
+		border-color: none !important;
+		border-top: none !important;
+	}
+}
 .font-blanca{
 	color: white !important;
 	font-size: 20px;
@@ -102,17 +122,24 @@ ul.nav{
 .texto-slider{
 	padding-bottom: 80px;
 	text-align: center !important;
+	
 }
 .texto-slider h1{
 	margin-top: 0px;
 	margin-bottom: 30px;
 	font-size: 55px;
+	line-height: 125%;
 }
 .texto-slider h2{
 	margin-bottom: 0px;
 	font-size: 48px;
+	line-height: 125%;
 }
-@media (max-width: 580px){
+.images{
+	height: 150px;
+	width: 150px;
+}
+@media (max-width:580px){
 	.texto-slider{
 		padding-bottom: 80px;
 	}
@@ -123,8 +150,12 @@ ul.nav{
 	.texto-slider h1{
 		font-size: 30px;
 	}
+	.images{
+		height: 80px;
+		width: 80px;
+	}
 }
-@media (max-width: 680px){
+@media (max-width:680px){
 	.texto-slider h2{
 		font-size: 24px;
 
@@ -135,10 +166,10 @@ ul.nav{
 	.texto-slider{
 		padding-bottom: 120px;
 	}
-}
-.images{
-	height: 150px;
-	width: 150px;
+	.images{
+		height: 100px;
+		width: 100px;
+	}
 }
 #tronco-slider{
 	width: 200px;
@@ -310,7 +341,7 @@ ul.nav{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 }
 .sustentable{
 	height: auto;

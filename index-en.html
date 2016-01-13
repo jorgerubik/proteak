@@ -42,6 +42,8 @@
            var font = $("#font-blanco");
            var correo = $("#font-blanca");
            var caret = $("#font-carret");
+           var nav = $("#nav-bar");
+           var idioma = $("#idioma");
            // dependiendo el lugar de la pantalla
            // modificamos la clase del header
            // par cambiar su color de fondo
@@ -52,13 +54,17 @@
                font.addClass("font-blanca").removeClass("sitioweb");
                correo.addClass("font-blanca").removeClass("correo");
                caret.addClass("font-blanca").removeClass("carret-normal");
+               nav.addClass("navbar-right-g").removeClass("navbar-right-b");
+               idioma.addClass("idioma-b").removeClass("idioma-g");
            } else {
                menu.addClass("navbar-proteak-inbot").removeClass("navbar-proteak-intop");
                logodesktop.addClass("muestra").removeClass("esconde");
                logophone.addClass("muestra").removeClass("esconde");
                font.addClass("sitioweb").removeClass("font-blanca");
                correo.addClass("correo").removeClass("font-blanca");
-               caret.addClass("carret-normal").removeClass("font-blanca")
+               caret.addClass("carret-normal").removeClass("font-blanca");
+               nav.addClass("navbar-right-b").removeClass("navbar-right-g");
+               idioma.addClass("idioma-g").removeClass("idioma-b");
            }
        });
    });
@@ -84,12 +90,12 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right navbar-right-g" id="nav-bar">
         <li><a href="http://www.proteak.com" class="font-blanca" id="font-blanco">WEBSITE</a></li>
         <li class="dropdown">
           <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/bandera_eu.svg" class=" imagenes" alt=""><span class="caret font-blanca" id="font-carret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="index-es.html"><img src="images/bandera_mexico.svg" class="imagenes" alt="">Español - México</a></li>
+            <li><a href="index-es.html" class="idioma-b" id="idioma"><img src="images/bandera_mexico.svg" class="imagenes" alt="">Español - México</a></li>
                         
           </ul>
         </li>
@@ -118,8 +124,8 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('images/slide1.jpg');"></div>
                 <div class="carousel-caption texto-slider">
-                    <h2>THE FIRST PLANT FOR MEDIUM DENSITY FIBERBOARD</h2>
-                    <H1>MDF IN MÉXICO</H1>
+                    <h2>THE FIRST PLANT FOR MEDIUM DENSITY </h2>
+                    <H1>FIBERBOARD IN MEXICO</H1>
                     <img src="images/arbol.svg" alt="" align="center" class="images">
                     <br><br><br><br>
                    <a href="#caracteristicas" align="center"><span class="glyphicon glyphicon-menu-down flecha-abajo"></span></a>
@@ -129,7 +135,7 @@
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('images/slide2.jpg');"></div>
                 <div class="carousel-caption texto-slider">
-                    <h2>WE STARTED</h2>
+                    <h2>WE HAVE STARTED</h2>
                     <H1>OPERATIONS</H1>
                     <img src="images/arbol.svg" alt="" align="center" class="images">
                     <br><br><br><br>
@@ -141,7 +147,7 @@
                 <div class="fill" style="background-image:url('images/slide3.jpg');"></div>
                 <div class="carousel-caption texto-slider">
                     <h2>THE BEST MDF BOARDS MADE IN</h2>
-                    <H1>MÉXICO COMING SOON</H1>
+                    <H1>MEXICO ARE COMING SOON</H1>
                     <img src="images/arbol.svg" alt="" align="center" class="images">
                     <br><br><br><br>
                    <a href="#vision" align="center"><span class="glyphicon glyphicon-menu-down flecha-abajo"></span></a>
@@ -151,7 +157,7 @@
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('images/slide4.jpg');"></div>
                 <div class="carousel-caption texto-slider">
-                    <h2>READY TO EFFECTIVELY SERVICE NORTH AMERICA</h2>
+                    <h2>READY TO SERVICE NORTH AMERICA</h2>
                     <H1>AND THE SURROUNDING MARKETS</H1>
                     <img src="images/arbol.svg" alt="" align="center" class="images">
                     <br><br><br><br>
@@ -182,7 +188,7 @@
                      <h2 class="title">PERFORMANCE</h2>
                     
                     <div class="descripcion" align="center">
-                        <h1>With combining the newest technology and the most innovative design textures, we will be well positioned to provide products meeting all the industry standards required certifications the market demands.</h1>
+                        <h1>Combining the newest technology and the most innovative design textures, we will be well positioned to provide products that meet all the industry standards, the required certifications and the market demands.</h1>
                     </div>
                 </div>
             </div>
@@ -195,7 +201,7 @@
             </div>
             <div class="col-md-4 icono" >
                 <img src="images/icono2.svg" alt="" class="icono-circular">
-                        <p>The largest <br>forestry-industrial investment </p>
+                        <p>The largest forestry-industrial investment<br>in North America in the last 10 years</p>
             </div>
             <div class="col-md-4 icono" >
                 <img src="images/icono3.svg" alt="" class="icono-circular">
@@ -227,7 +233,7 @@
                      <h2 class="title">PERFORMANCE</h2>
                     
                     <div class="descripcion" align="center">
-                        <h1>With combining the newest technology and the most innovative design textures, we will be well positioned to provide products meeting all the industry standards required certifications the market demands.</h1>
+                        <h1>Combining the newest technology and the most innovative design textures, we will be well positioned to provide products that meet all the industry standards, the required certifications and the market demands.</h1>
                     </div>
                 </div>
             </div>
@@ -239,7 +245,7 @@
             </div>
             <div class="col-md-4 icono">
                 <img src="images/icono2.svg" alt="" class="icono-circular">
-                        <p>The largest forestry-industrial investment <br> in North America in the last 10 years </p>
+                        <p>The largest forestry-industrial investment<br>in North America in the last 10 years </p>
             </div>
             <div class="col-md-4 icono">
                 <img src="images/icono3.svg" alt="" class="icono-circular">
@@ -275,7 +281,7 @@
                          <h2 class="title">SUSTAINABLE INDUSTRY</h2>
                         
                         <div class="descripcion" align="center">
-                            <h1>The plant implementing a strict environmental polices, 100% sustainable and a firm commitment in product innovation to satisfy the Global Market.</h1>
+                            <h1>The plant is implementing a strict environmental polices, 100% sustainable and a strong commitment in product innovation to satisfy the global market.</h1>
                         </div>
                     </div>
                 </div>
@@ -358,7 +364,7 @@
                      <h2 class="title">SUSTAINABLE INDUSTRY</h2>
                     
                     <div class="descripcion" align="center">
-                        <h1>The plant implementing a strict environmental polices, 100% sustainable and a firm commitment in product innovation to satisfy the Global Market.</h1>
+                        <h1>The plant is implementing a strict environmental polices, 100% sustainable and a strong commitment in product innovation to satisfy the global market.</h1>
                     </div>
                 </div>
             </div>
@@ -464,7 +470,7 @@
             <div class="col-md-6 video-cont">
                 <div class="video"> 
                     <!-- <iframe src="https://www.youtube.com/embed/1KZ9osr-a8I" frameborder="0" allowfullscreen></iframe> -->
-                    <video src="videos/Proteak-en.mov" height="620" width="100%" controls></video>
+                    <video src="videos/Proteak-en.mp4" height="620" width="100%" controls></video>
             </div>
             </div>
         </div>
@@ -631,7 +637,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 3000 //changes the speed
+        interval: 5000 //changes the speed
     })
     </script>
     <script src="js/parallax/jquery.superscrollorama.js"></script>
