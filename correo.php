@@ -15,7 +15,7 @@ $cabeceras = 'From: noreply@fabricadesoluciones.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 // Enviarlo
-mail('kreyes@fabricadesoluciones.com', $asunto, $mensaje, $cabeceras);
+mail('crodriguez@proteak.com', $asunto, $mensaje, $cabeceras);
 
 mail('kreyes@fabricadesoluciones.com', $asunto, $mensaje, $cabeceras);
 
